@@ -1,7 +1,7 @@
 import { Platform } from 'react-native';
 
 const LOCALHOST = Platform.OS === 'android' ? '10.0.2.2' : 'localhost';
-export const API_BASE_URL = `http://${LOCALHOST}:8081/api`;
+export const API_BASE_URL = `http://${LOCALHOST}:8080/api`;
 
 export async function apiFetch<T>(path: string): Promise<T[]> {
   const res = await fetch(`${API_BASE_URL}${path}`);
