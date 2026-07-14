@@ -1,7 +1,7 @@
 import { Stack } from 'expo-router';
 import * as SplashScreen from 'expo-splash-screen';
 import { useColorScheme } from 'react-native';
-import { ThemeProvider, DarkTheme, DefaultTheme } from "expo-router/react-navigation";
+import { ThemeProvider, DarkTheme, DefaultTheme } from '@react-navigation/native';
 
 SplashScreen.preventAutoHideAsync();
 
