@@ -26,7 +26,9 @@
     "react-native-screens": "~4.0.0",
     "react-native-svg": "15.8.0",
     "react-native-web": "~0.19.13",
-    "react-native-worklets": "0.10.0"
+    "react-native-worklets": "0.10.0",
+    "metro": "0.81.5",
+    "metro-config": "0.81.5"
   },
   "devDependencies": {
     "@types/react": "~18.3.12",
